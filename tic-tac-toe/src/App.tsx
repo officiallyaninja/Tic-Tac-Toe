@@ -4,8 +4,10 @@ import TicTacToeGrid from "./components/TicTacToeGrid";
 
 export default function App() {
   return (
-    <div>
-      <TicTacToeGrid />
+    <div className="App">
+      <div className="TicTacToeContainer">
+        <TicTacToeGrid />
+      </div>
     </div>
   );
 }

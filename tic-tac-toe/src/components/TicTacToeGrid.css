@@ -1,0 +1,13 @@
+.TicTacToeGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 50vw;
+  text-align: center;
+  /* row-gap: 10vw; */
+}
+
+.tictactoebox {
+    --side-length: 100px
+    width: var(--side-length)
+    height: var(--side-length)
+}

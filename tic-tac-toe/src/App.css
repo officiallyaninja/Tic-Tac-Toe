@@ -1,3 +1,18 @@
 :root {
   --bg-color: #282c34;
 }
+
+body {
+  user-select: none;
+}
+
+.App {
+  height: 100vh;
+}
+
+.TicTacToeContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  /* width: 100px; */
+}

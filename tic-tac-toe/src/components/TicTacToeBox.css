@@ -1,0 +1,16 @@
+.TicTacToeBox {
+  border: 3px solid gray;
+  height: 25vh;
+  font-size: min(25vh, 50vw);
+  display: flex;
+  align-content: center;
+  justify-content: end;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.TicTacToeBox:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: 0.1s;
+  cursor: pointer;
+}
