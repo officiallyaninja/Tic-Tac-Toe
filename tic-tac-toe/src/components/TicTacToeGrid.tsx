@@ -52,10 +52,11 @@ export default function TicTacToeGrid() {
         (
           symbol,
           index //we replace it to x if the coord we clicked on matches grid
-        ) => (index === coordIndex ? getCurrentSymbol() : symbol) //state index
+        ) =>
+          index === coordIndex && symbol === "" ? getCurrentSymbol() : symbol //state index
       );
+      if (grid[coordIndex] !== nextGrid[coordIndex]) changeSymbol();
       setGrid(nextGrid);
-      changeSymbol();
     };
   }
 

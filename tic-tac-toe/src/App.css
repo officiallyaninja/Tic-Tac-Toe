@@ -13,6 +13,6 @@ body {
 .TicTacToeContainer {
   display: flex;
   justify-content: center;
-  margin-top: 10vh;
+  transform: translateY(10vh);
   /* width: 100px; */
 }
