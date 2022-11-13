@@ -1,3 +1,2 @@
-# Introduction
-
-This is my first ever attempt at a proper project in react, wish me luck
+# React-Tic-Tac-Toe
+A first attempt at a react app
